@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.pamuts.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_movie_detail"
+            app:destination="@id/nav_movie_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_fav"
+        android:name="com.example.pamuts.ui.favorite.FavoriteFragment"
+        android:label="Favorite"
+        tools:layout="@layout/fragment_favorite">
+        <action
+            android:id="@+id/action_nav_fav_to_nav_movie_detail"
+            app:destination="@id/nav_movie_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_movie_detail"
+        android:name="com.example.pamuts.ui.home.MovieDetailFragment"
+        android:label="User Detail"
+        tools:layout="@layout/movie_detail" >
+        <argument
+            android:name="extra_id"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.pamuts.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

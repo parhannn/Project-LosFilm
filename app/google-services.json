@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "19594225554",
+    "project_id": "losfilm-d11b8",
+    "storage_bucket": "losfilm-d11b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19594225554:android:d769bd550eab5898e7c34b",
+        "android_client_info": {
+          "package_name": "com.example.pamuts"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAYQ0l_Cy4cTKHhNxd48UdMiYWwazVm7E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

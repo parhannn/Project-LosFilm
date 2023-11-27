@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Array of movie image-->
+    <integer-array name="movie_image_array">
+        <item>@drawable/nwh</item>
+        <item>@drawable/oph</item>
+        <item>@drawable/spdrvrs</item>
+    </integer-array>
+
+    <string-array name="movie_name_array">
+        <item>@string/movie_name_1</item>
+        <item>@string/movie_name_2</item>
+        <item>@string/movie_name_3</item>
+    </string-array>
+
+    <integer-array name="fav_movie_image_array">
+        <item>@drawable/oph</item>
+    </integer-array>
+
+    <string-array name="fav_movie_name_array">
+        <item>@string/movie_name_2</item>
+    </string-array>
+</resources>

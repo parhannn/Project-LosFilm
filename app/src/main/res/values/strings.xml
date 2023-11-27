@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">LosFilm</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_fav">Favorite</string>
+
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="login_page">Login</string>
+    <string name="register_page">Register</string>
+
+    <string name="appBar_main_contentDesc">This is message</string>
+
+    <string name="username_hint">Nomor Telepon</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="password_retype_hint">Masukan Ulang Password</string>
+    <string name="login_text">Login</string>
+    <string name="register_text">Register</string>
+    <string name="not_registered">Not Registered Yet? Sign Up, Please</string>
+    <string name="registered">Already Registered? Login, Please</string>
+    <string name="fab_content_description">Represents a view to invoke an action</string>
+
+    <string name="action_search">Search&#8230;</string>
+
+    <string name="first_name">Joko</string>
+    <string name="second_name">Adi</string>
+    <string name="third_name">Bejo</string>
+    <string name="fourth_name">Anam</string>
+    <string name="logo_desc">LOGO</string>
+    <string name="text_desc">TEXT</string>
+
+    <string name="greeting_desc">Selamat Datang</string>
+    <string name="name_desc">Nama Saya Farhan Apri Kesuma</string>
+    <string name="nim_desc">NIM saya 121140179</string>
+
+    <string name="reason_desc">Aplikasi ini dibuat untuk memenuhi Ujian Tengah Semester Pengembangan Aplikasi Mobile</string>
+    <string name="good_bye_desc">Semoga Bapak Suka&#128522;</string>
+    <string name="made_by">By</string>
+
+    <string name="movie_name_1">No Way Home</string>
+    <string name="movie_name_2">Oppenheimer</string>
+    <string name="movie_name_3">Spiderverse 2</string>
+</resources>
