@@ -5,18 +5,13 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
 import com.example.pamuts.LoginActivity
 import com.example.pamuts.databinding.FragmentProfileBinding
 
 class ProfileFragment : Fragment() {
 
     private var _binding: FragmentProfileBinding? = null
-
-    // This property is only valid between onCreateView and
-    // onDestroyView.
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -32,17 +27,6 @@ class ProfileFragment : Fragment() {
             }
         }
         val root: View = binding.root
-//        val textUser: TextView = binding.textUser
-//        val textGit: TextView = binding.textGit
-//        val textNik: TextView = binding.textNik
-//        val textEmail: TextView = binding.textEmail
-
-//        profileViewModel.text.observe(viewLifecycleOwner) {
-//            textUser.text = "farhan04"
-//            textGit.text = "parhannn"
-//            textNik.text = "123456123568199"
-//            textEmail.text = "farhannn58@gmail.com"
-//        }
         return root
     }
 

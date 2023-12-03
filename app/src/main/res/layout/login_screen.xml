@@ -2,18 +2,13 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/light_blue"
+    style="@style/LoginBasedStyle"
     tools:context=".LoginActivity">
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/loginLabel"
         android:text="@string/login_text"
-        android:textSize="25sp"
-        android:textColor="@color/black"
+        style="@style/LoginLabelStyle"
         app:layout_constraintBottom_toTopOf="@+id/emailLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -24,7 +19,7 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/emailLayout"
         style="@style/LoginTextInputOuterFieldStyle"
-        android:layout_width="292dp"
+        android:layout_width="@dimen/form_layout_width"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/username_login_marginHorizontal"
         android:layout_marginTop="@dimen/username_login_marginTop"
@@ -37,8 +32,8 @@
             android:id="@+id/emailEt"
             style="@style/LoginTextInputInnerFieldStyle"
             android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:textSize="18sp"
+            android:layout_height="@dimen/input_layoutHeight"
+            android:textSize="@dimen/input_textSize"
             android:hint="@string/email_hint"
             android:inputType="textEmailAddress"
             android:background="@drawable/container"/>
@@ -47,7 +42,7 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/passwordLayout"
         style="@style/LoginTextInputOuterFieldStyle"
-        android:layout_width="292dp"
+        android:layout_width="@dimen/form_layout_width"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/password_login_marginHorizontal"
         android:layout_marginTop="@dimen/password_login_marginTop"
@@ -61,8 +56,8 @@
             android:id="@+id/passET"
             style="@style/LoginTextInputInnerFieldStyle"
             android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:textSize="18sp"
+            android:layout_height="@dimen/input_layoutHeight"
+            android:textSize="@dimen/input_textSize"
             android:hint="@string/password_hint"
             android:inputType="textPassword"
             android:background="@drawable/container" />
@@ -71,13 +66,13 @@
 
     <Button
         android:id="@+id/login_button"
-        android:layout_width="246dp"
-        android:layout_height="60dp"
+        android:text="@string/login_text"
+        android:layout_width="@dimen/button_layout_width"
+        android:layout_height="@dimen/button_layout_height"
         android:layout_marginTop="@dimen/login_button_marginTop"
         android:backgroundTint="@color/darken_blue"
-        android:text="@string/login_text"
-        android:textSize="17sp"
-        app:cornerRadius="20dp"
+        android:textSize="@dimen/button_textSize"
+        app:cornerRadius="@dimen/button_cornerRadius"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -85,18 +80,17 @@
 
     <Button
         android:id="@+id/register_button"
-        android:layout_width="246dp"
-        android:layout_height="60dp"
+        android:text="@string/register_text"
+        android:layout_width="@dimen/button_layout_width"
+        android:layout_height="@dimen/button_layout_height"
         android:layout_marginTop="@dimen/register_button_marginTop"
         android:backgroundTint="@color/darken_blue"
-        android:text="@string/register_text"
-        android:textSize="17sp"
-        app:cornerRadius="20dp"
+        android:textSize="@dimen/button_textSize"
+        app:cornerRadius="@dimen/button_cornerRadius"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login_button"
         app:layout_constraintVertical_bias="0" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

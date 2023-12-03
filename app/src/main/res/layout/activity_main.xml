@@ -3,24 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/drawer_layout"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
+    style="@style/DrawerStyle"
     tools:openDrawer="start">
 
     <include
         android:id="@+id/app_bar_main"
         layout="@layout/app_bar_main"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        style="@style/AppBarMainStyle" />
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:background="@color/blue"
-        android:layout_gravity="start"
-        android:fitsSystemWindows="true"
+        style="@style/NavViewStyle"
         app:headerLayout="@layout/nav_header_main"
         app:menu="@menu/bottom_navigation" />
 </androidx.drawerlayout.widget.DrawerLayout>

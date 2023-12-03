@@ -3,15 +3,13 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Splash"
-    android:background="@color/light_blue">
+    style="@style/SplashBasedStyle"
+    tools:context=".Splash">
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:id="@+id/apk_logo"
+        android:contentDescription="@string/apk_logo"
+        style="@style/LogoStyle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,14 +17,13 @@
         app:srcCompat="@drawable/apk_logo" />
 
     <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="153dp"
-        android:layout_height="71dp"
+        android:id="@+id/team_logo"
+        android:contentDescription="@string/team_logo"
+        style="@style/MadeByStyle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/apk_logo"
         app:layout_constraintVertical_bias="0.852"
         app:srcCompat="@drawable/made_by" />
 

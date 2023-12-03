@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -18,8 +17,9 @@
 
         <ImageView
             android:id="@+id/iv_movie_backdrop"
+            android:contentDescription="@string/backdrop"
             android:layout_width="match_parent"
-            android:layout_height="300dp"
+            android:layout_height="@dimen/backdrop_layout_height"
             android:scaleType="centerCrop"
             android:adjustViewBounds="true"
             app:layout_constraintEnd_toEndOf="parent"
@@ -30,24 +30,24 @@
 
         <ImageButton
             android:id="@+id/go_back"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
+            android:contentDescription="@string/go_back"
+            android:layout_width="@dimen/detailButt_layout_width"
+            android:layout_height="@dimen/detailButt_layout_height"
+            android:layout_marginStart="@dimen/detailButt_layout_marginStart"
+            android:layout_marginTop="@dimen/detail_content_layout_marginTop"
             android:background="@drawable/format_button"
-            android:contentDescription="GO BACK"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/ic_arrow_back" />
 
         <ImageButton
             android:id="@+id/favorite"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
+            android:contentDescription="@string/favorite"
+            android:layout_width="@dimen/detailButt_layout_width"
+            android:layout_height="@dimen/detailButt_layout_height"
+            android:layout_marginTop="@dimen/detail_content_layout_marginTop"
+            android:layout_marginEnd="@dimen/detail_content_layout_marginEnd"
             android:background="@drawable/format_button"
-            android:contentDescription="Favorite"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/baseline_favorite_border_24" />
@@ -56,40 +56,41 @@
             android:id="@+id/card_movie_data"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="250dp"
+            android:layout_marginTop="@dimen/card_movie_marginTop"
             android:background="@color/white"
-            app:cardCornerRadius="25dp"
-            app:cardElevation="0dp"
+            app:cardCornerRadius="@dimen/card_movie_cardCornerRadius"
+            app:cardElevation="@dimen/card_movie_cardElevation"
             app:cardUseCompatPadding="true"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:strokeColor="@color/black"
-            app:strokeWidth="2dp">
+            app:strokeWidth="@dimen/card_movie_strokeWidth">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="16dp">
+                android:layout_margin="@dimen/movie_content_margin">
 
                 <TextView
                     android:id="@+id/tv_movie_title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Movie Title"
+                    android:text="@string/movie_name_1"
                     android:textAlignment="center"
-                    android:textSize="16sp"
+                    android:textSize="@dimen/movie_title_textSize"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
+                    android:importantForAccessibility="no"
                     android:id="@+id/iv_movie_poster"
-                    android:layout_width="150dp"
+                    android:layout_width="@dimen/movie_poster_width"
                     android:layout_height="wrap_content"
-                    android:layout_margin="16dp"
-                    android:layout_marginTop="16dp"
+                    android:layout_margin="@dimen/movie_poster_margin"
+                    android:layout_marginTop="@dimen/movie_poster_margin"
                     android:adjustViewBounds="true"
                     tools:src="@tools:sample/avatars"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -100,10 +101,10 @@
                     android:id="@+id/tv_time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="@dimen/movie_text_marginTop"
                     android:drawableStart="@drawable/baseline_access_time_24"
-                    android:drawablePadding="8dp"
-                    android:text="Duration"
+                    android:drawablePadding="@dimen/movie_text_drawablePadding"
+                    android:text="@string/duration"
                     app:layout_constraintEnd_toStartOf="@+id/tv_star"
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintHorizontal_chainStyle="spread"
@@ -114,9 +115,9 @@
                     android:id="@+id/tv_star"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="@dimen/movie_text_marginTop"
                     android:drawableStart="@drawable/baseline_star_border_24"
-                    android:text="Star"
+                    android:text="@string/rating"
                     app:layout_constraintEnd_toStartOf="@+id/tv_date"
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toEndOf="@+id/tv_time"
@@ -126,9 +127,9 @@
                     android:id="@+id/tv_date"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="@dimen/movie_text_marginTop"
                     android:drawableStart="@drawable/baseline_date_range_24"
-                    android:text="Date"
+                    android:text="@string/date"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toEndOf="@+id/tv_star"
@@ -138,8 +139,8 @@
                     android:id="@+id/tv_tagline"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:text="Tagline"
+                    android:layout_marginTop="@dimen/movie_text_marginTop"
+                    android:text="@string/tagline"
                     android:textStyle="bold|italic"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -149,8 +150,8 @@
                     android:id="@+id/tv_overview"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:text="Overview"
+                    android:layout_marginTop="@dimen/movie_text_marginTop"
+                    android:text="@string/synopsis"
                     android:textAlignment="center"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -159,7 +160,6 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </com.google.android.material.card.MaterialCardView>
-
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

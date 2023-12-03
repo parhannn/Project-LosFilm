@@ -6,12 +6,36 @@
     <dimen name="nav_header_height">176dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="logout_margin">90dp</dimen>
+    <dimen name="form_layout_width">292dp</dimen>
+    <dimen name="input_layoutHeight">70dp</dimen>
+    <dimen name="input_textSize">18sp</dimen>
+    <dimen name="button_layout_width">246dp</dimen>
+    <dimen name="button_layout_height">60dp</dimen>
+    <dimen name="button_textSize">17sp</dimen>
+    <dimen name="button_cornerRadius">20dp</dimen>
+    <dimen name="button_marginBottom">36dp</dimen>
 
     <!--detail fragment content dimen-->
     <dimen name="detail_content_layout_marginStart">8dp</dimen>
     <dimen name="detail_content_layout_marginTop">8dp</dimen>
     <dimen name="detail_content_layout_marginEnd">8dp</dimen>
     <dimen name="detail_content_textSize">20sp</dimen>
+    <dimen name="backdrop_layout_height">300dp</dimen>
+    <dimen name="detailButt_layout_width">45dp</dimen>
+    <dimen name="detailButt_layout_height">45dp</dimen>
+    <dimen name="detailButt_layout_marginStart">16dp</dimen>
+    <dimen name="detailButt_layout_marginTop">16dp</dimen>
+    <dimen name="detailButt_layout_marginEnd">16dp</dimen>
+    <dimen name="card_movie_marginTop">250dp</dimen>
+    <dimen name="card_movie_cardCornerRadius">25dp</dimen>
+    <dimen name="card_movie_cardElevation">0dp</dimen>
+    <dimen name="card_movie_strokeWidth">2dp</dimen>
+    <dimen name="movie_content_margin">16dp</dimen>
+    <dimen name="movie_title_textSize">16sp</dimen>
+    <dimen name="movie_poster_width">150dp</dimen>
+    <dimen name="movie_poster_margin">16dp</dimen>
+    <dimen name="movie_text_marginTop">16dp</dimen>
+    <dimen name="movie_text_drawablePadding">8dp</dimen>
 
     <!--skill fragment content dimen-->
     <dimen name="skill_content_layout_width">0dp</dimen>
@@ -23,6 +47,9 @@
     <dimen name="item_card_height">70dp</dimen>
     <dimen name="item_card_cornerRadius">20dp</dimen>
     <dimen name="item_textSize">16sp</dimen>
+    <dimen name="item_stroke_width">2dp</dimen>
+    <dimen name="item_card_elevation">0dp</dimen>
+    <dimen name="item_card_corner_radius">25dp</dimen>
 
     <!--searchBar dimen-->
     <dimen name="searchBar_layout_width">0dp</dimen>
@@ -62,4 +89,9 @@
     <!--register button-->
     <dimen name="signUp_button_width">0dp</dimen>
     <dimen name="signUp_button_marginHorizontal">40dp</dimen>
+
+    <!--profile dimen-->
+    <dimen name="profile_image_cornerRadius">100dp</dimen>
+    <dimen name="profile_card_cornerRadius">35dp</dimen>
+    <dimen name="logout_button_cornerRadius">20dp</dimen>
 </resources>

@@ -31,7 +31,7 @@ class LoginActivity : AppCompatActivity() {
                         startActivity(intent)
                     }
                     else {
-                        Toast.makeText(this, "Email or Password is incorrect!", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, "Incorrect email or password! Or doesn't have account yet? Register please", Toast.LENGTH_SHORT).show()
                     }
                 }
             }
