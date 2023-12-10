@@ -27,4 +27,10 @@
   <img src="https://github.com/parhannn/Project-LosFilm/blob/master/Snapshots/src1.jpg" 
     width="350" 
     title="hover text">
+  <img src="https://github.com/parhannn/Project-LosFilm/blob/master/Snapshots/src2.jpg" 
+    width="350" 
+    title="hover text">
+  <img src="https://github.com/parhannn/Project-LosFilm/blob/master/Snapshots/src3.jpg" 
+    width="350" 
+    title="hover text">
 </p>
