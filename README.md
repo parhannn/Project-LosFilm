@@ -58,5 +58,5 @@ LosFilm is a mobile based application that has a lot of useful features. LosFilm
 ## Demo on YouTube
 
 <a href="">
-  **CLICK HERE**
+  CLICK HERE
 </a>
