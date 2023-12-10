@@ -1,7 +1,7 @@
 # LosFilm Application
 
 <p align="center">
-  <img src="https://github.com/parhannn/Project-LosFilm/blob/master/Snapshots/src1.jpg" 
+  <img src="https://github.com/parhannn/Project-LosFilm/blob/master/app/src/main/res/drawable/apk_logo.png" 
     width="350" 
     title="hover text">
 
