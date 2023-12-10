@@ -1,5 +1,10 @@
 # LosFilm Application
 
+<p align="center">
+  <img src="https://github.com/parhannn/Project-LosFilm/blob/master/Snapshots/src1.jpg" 
+    width="350" 
+    title="hover text">
+
 ## About App
 
 LosFilm is a mobile based application that has a lot of useful features. LosFilm is suitable for movie enthusiasts who want a variety of films from different genres. This application is designed for users who want to know about upcoming movies in theaters. The app also allows users to search for movies they want to watch right now or on another day. It can also help users find information of older movies they may have forgotten the title of. The movie information can also be added to your favorite list and can be deleted too. To use this application you must register an account first using your email. After logging in you can search for movies using the search bar located above the list. You can see details of the movie that you choose by clicking on the existing list. Then you can also see your detailed profile on detail profile menu. You can log out using logout button located in detail profile menu.
