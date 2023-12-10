@@ -1,15 +1,15 @@
 # LosFilm Application
 
-## Teech Stack
+## Tech Stack
 
 1. Architecture Pattern using MVVM (Model - View - View Model)
 
-Target SDK = 34
+2. Target SDK = 34
 
-Local Database with Room DB
+3. Local Database with Room DB
 
-API Service with Retrofit
+4. API Service with Retrofit
 
-Navigate with Navigation
+5. Navigate with Navigation
 
-Pagination using Paging2 / Paging3
+6. Pagination using Paging2 / Paging3
