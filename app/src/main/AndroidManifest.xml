@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
@@ -39,6 +42,13 @@
             android:name=".RegisterActivity"
             android:exported="false"
             android:label="@string/register_page"
+            android:theme="@style/Theme.PAMUTS.NoActionBar"/>
+
+        <!--Camera-->
+        <activity
+            android:name=".CameraFake"
+            android:exported="true"
+            android:label="@string/app_name"
             android:theme="@style/Theme.PAMUTS.NoActionBar"/>
 
         <!--main page (after login)-->

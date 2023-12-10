@@ -14,6 +14,10 @@
     <dimen name="button_textSize">17sp</dimen>
     <dimen name="button_cornerRadius">20dp</dimen>
     <dimen name="button_marginBottom">36dp</dimen>
+    <dimen name="camera_width">411dp</dimen>
+    <dimen name="camera_height">416dp</dimen>
+    <dimen name="buttonCam_width">60dp</dimen>
+    <dimen name="buttonCam_height">60dp</dimen>
 
     <!--detail fragment content dimen-->
     <dimen name="detail_content_layout_marginStart">8dp</dimen>
@@ -91,7 +95,8 @@
     <dimen name="signUp_button_marginHorizontal">40dp</dimen>
 
     <!--profile dimen-->
-    <dimen name="profile_image_cornerRadius">100dp</dimen>
+    <dimen name="profile_image_cornerRadius">50dp</dimen>
     <dimen name="profile_card_cornerRadius">35dp</dimen>
     <dimen name="logout_button_cornerRadius">20dp</dimen>
+    <dimen name="photo_stroke_width">5dp</dimen>
 </resources>

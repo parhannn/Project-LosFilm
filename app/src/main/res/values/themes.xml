@@ -152,6 +152,10 @@
         <item name="android:layout_height">0dp</item>
     </style>
 
+    <style name="circular">
+        <item name="cornerSize">50%</item>
+    </style>
+
     <!--Profile Style-->
     <style name="ProfileConstraintStyle">
         <item name="android:layout_width">match_parent</item>
@@ -160,10 +164,12 @@
         <item name="android:background">@android:color/transparent</item>
     </style>
     <style name="ProfileImageStyle">
-        <item name="android:layout_width">200dp</item>
-        <item name="android:layout_height">200dp</item>
-        <item name="android:layout_marginTop">0dp</item>
-        <item name="android:src">@drawable/ic_profile_photo</item>
+        <item name="android:layout_width">180dp</item>
+        <item name="android:layout_height">180dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@color/grey</item>
+        <item name="android:src">@drawable/baseline_person</item>
     </style>
     <style name="CardProfileStyle">
         <item name="android:layout_width">365dp</item>
