@@ -14,7 +14,7 @@
 
 6. Pagination using Paging2 / Paging3
 
-##Function
+## Function
 
 1. Show list via RecyclerView with Pagination (Paging), also add search function
 2. Some function with Show list, search and get some detail using API
