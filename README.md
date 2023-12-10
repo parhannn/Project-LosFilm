@@ -13,3 +13,11 @@
 5. Navigate with Navigation
 
 6. Pagination using Paging2 / Paging3
+
+##Function
+
+1. Show list via RecyclerView with Pagination (Paging), also add search function
+2. Some function with Show list, search and get some detail using API
+3. Favorite List using some CRUD (Create, Update, Delete) function with Room DB
+4. Register and login user with firebase auth
+5. Fake Camera
