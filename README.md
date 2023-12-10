@@ -24,7 +24,7 @@
 
 ## Snapshots
 <p align="center">
-  <img src="![Screenshot_2023-12-10-09-42-29-167_com example pamuts](https://github.com/parhannn/Project-LosFilm/assets/90200753/3558918a-a0c3-4474-b633-457aa6220359)" 
+  <img src="https://github.com/parhannn/Project-LosFilm/blob/master/Snapshots/src1.jpg" 
     width="350" 
     title="hover text">
 </p>
