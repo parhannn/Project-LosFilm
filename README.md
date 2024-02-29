@@ -44,7 +44,7 @@ LosFilm is a mobile based application that has a lot of useful features. LosFilm
 
 ## Figma Prototype
 
-<a href="figma.com/file/CL9hX039C3FRJ3V07tkepE/📲Wireframes-for-mobile-UI-design-(Community)?type=design&node-id=51-57&mode=design&t=hA8TFZNfuPpwpa3b-0">
+<a href="https://www.figma.com/file/CL9hX039C3FRJ3V07tkepE/LosFilm-Prototype?type=design&node-id=35%3A0&mode=design&t=aBOyLp2JPq8RStv8-1">
   **CLICK HERE**
 </a>
 
