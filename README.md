@@ -40,7 +40,8 @@ LosFilm is a mobile based application that has a lot of useful features. LosFilm
 2. Some function with Show list, search and get some detail using API
 3. Favorite List using some CRUD (Create, Update, Delete) function with Room DB
 4. Register and login user with firebase auth
-5. Fake Camera
+5. Intent Camera
+6. Chucker
 
 ## Figma Prototype
 
