@@ -17,6 +17,7 @@ class CameraFake : AppCompatActivity() {
         binding.cameraButton.setOnClickListener {
             val intent = Intent(this@CameraFake, MainActivity::class.java)
             startActivity(intent)
+            finish()
         }
     }
 }

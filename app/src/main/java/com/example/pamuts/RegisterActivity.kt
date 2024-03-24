@@ -29,8 +29,7 @@ class RegisterActivity : AppCompatActivity(){
                     firebaseAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener {
                         if (it.isSuccessful) {
                             Toast.makeText(this, "Register Successful", Toast.LENGTH_SHORT).show()
-                            val intent = Intent(this@RegisterActivity, LoginActivity::class.java)
-                            startActivity(intent)
+                            finish()
                         }
                     }
                 }
@@ -43,7 +42,7 @@ class RegisterActivity : AppCompatActivity(){
             }
         }
         binding.navToLogin.setOnClickListener {
-            startActivity(Intent(this@RegisterActivity, LoginActivity::class.java))
+            finish()
         }
     }
 

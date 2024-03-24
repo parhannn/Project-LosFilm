@@ -25,7 +25,11 @@ class Splash : AppCompatActivity() {
         Handler(Looper.getMainLooper()).postDelayed({
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
-        }, 3000)
+            finish()
+        }, duration)
     }
 
+    companion object {
+        private const val duration: Long = 3000
+    }
 }

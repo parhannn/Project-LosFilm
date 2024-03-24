@@ -109,6 +109,4 @@ class HomeFragment : Fragment() {
         recyclerView.adapter = adapter
         adapter.submitData(lifecycle, listMovie)
     }
-
-
 }

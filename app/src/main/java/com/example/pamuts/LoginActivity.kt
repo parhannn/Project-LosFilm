@@ -29,6 +29,7 @@ class LoginActivity : AppCompatActivity() {
                         Toast.makeText(this, "Login Successful", Toast.LENGTH_SHORT).show()
                         val intent = Intent(this@LoginActivity, MainActivity::class.java)
                         startActivity(intent)
+                        finish()
                     }
                     else {
                         Toast.makeText(this, "Incorrect email or password! Or doesn't have account yet? Register please", Toast.LENGTH_SHORT).show()
